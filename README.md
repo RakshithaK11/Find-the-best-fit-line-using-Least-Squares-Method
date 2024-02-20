@@ -27,7 +27,7 @@ RegisterNumber:  23003887
 ~~~
 import numpy as np
 import matplotlib.pyplot as plt
-X=np.array([0,1,2,3,4,5,56,7,8,9])
+X=np.array([0,1,2,3,4,5,6,7,8,9])
 Y=np.array([1,3,2,5,7,8,8,9,10,12])
 XMean=np.mean(X)
 YMean=np.mean(Y)
@@ -44,9 +44,9 @@ plt.scatter(X,Y)
 plt.plot(X,Y_Pred,color="red")
 plt.show()
 ~~~
-
 ## Output:
-![image](https://github.com/RakshithaK11/Find-the-best-fit-line-using-Least-Squares-Method/assets/139336455/4e8ba295-5d88-46d6-b02c-251714aea68a)
+![image](https://github.com/RakshithaK11/Find-the-best-fit-line-using-Least-Squares-Method/assets/139336455/821e5169-32a1-4ac7-9256-20cab485dd4a)
+
 
 
 
